@@ -127,25 +127,27 @@ Iterator «Ітератор» - це поведінковий патерн пр�
 
 3.7 Приклад реалізації патерну
 Приклад реалізації патерну Iterator мовою Java:
-// Інтерфейс Iterator
+// 1. Інтерфейс Iterator — контракт для всіх ітераторів
 interface Iterator {
-    boolean hasNext();
-    Object next();
+    boolean hasNext();   // Чи є ще елементи
+    Object next();       // Повернути наступний елемент
 }
 
-// Конкретний Iterator
+// 2. Конкретний ітератор для масиву рядків
 class NameIterator implements Iterator {
     private String[] names;
-    private int index = 0;
-
+    private int index = 0;   // поточна позиція
+    
     public NameIterator(String[] names) {
         this.names = names;
     }
-
+    
+    @Override
     public boolean hasNext() {
         return index < names.length;
     }
-
+    
+    @Override
     public Object next() {
         if (hasNext()) {
             return names[index++];
@@ -154,17 +156,32 @@ class NameIterator implements Iterator {
     }
 }
 
-// Інтерфейс колекції
+// 3. Інтерфейс колекції (Aggregate)
 interface Container {
     Iterator getIterator();
 }
 
-// Конкретна колекція
+// 4. Конкретна колекція
 class NameRepository implements Container {
+    // Внутрішні дані — масив рядків
     private String[] names = {"Іван", "Петро", "Олена"};
-
+    
+    @Override
     public Iterator getIterator() {
         return new NameIterator(names);
+    }
+}
+
+// 5. Клієнтський код
+public class Main {
+    public static void main(String[] args) {
+        NameRepository repository = new NameRepository();
+        
+        // Отримуємо ітератор і обходимо колекцію
+        Iterator iterator = repository.getIterator();
+        while (iterator.hasNext()) {
+            System.out.println("Ім'я: " + iterator.next());
+        }
     }
 }
 У цьому прикладі:
@@ -301,25 +318,27 @@ Strategy доцільно застосовувати, коли існує кіл
 Порівняй патерни Iterator, Composite, Visitor та Strategy за їх призначенням, категорією (поведінкові / структурні) та впливом на взаємодію між об’єктами. Чим відрізняється Iterator від кожного з них? У яких випадках їх доцільно використовувати разом?
 
 Приклад реалізації патерну «Ітератор» на мові програмування Java:
-// Інтерфейс Iterator
+// 1. Інтерфейс Iterator — контракт для всіх ітераторів
 interface Iterator {
-    boolean hasNext();
-    Object next();
+    boolean hasNext();   // Чи є ще елементи
+    Object next();       // Повернути наступний елемент
 }
 
-// Конкретний Iterator
+// 2. Конкретний ітератор для масиву рядків
 class NameIterator implements Iterator {
     private String[] names;
-    private int index = 0;
-
+    private int index = 0;   // поточна позиція
+    
     public NameIterator(String[] names) {
         this.names = names;
     }
-
+    
+    @Override
     public boolean hasNext() {
         return index < names.length;
     }
-
+    
+    @Override
     public Object next() {
         if (hasNext()) {
             return names[index++];
@@ -328,29 +347,32 @@ class NameIterator implements Iterator {
     }
 }
 
-// Інтерфейс колекції
+// 3. Інтерфейс колекції (Aggregate)
 interface Container {
     Iterator getIterator();
 }
 
-// Конкретна колекція
+// 4. Конкретна колекція
 class NameRepository implements Container {
+    // Внутрішні дані — масив рядків
     private String[] names = {"Іван", "Петро", "Олена"};
-
+    
+    @Override
     public Iterator getIterator() {
         return new NameIterator(names);
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
+// 5. Клієнтський код
+public class Main {
+    public static void main(String[] args) {
+        NameRepository repository = new NameRepository();
+        
+        // Отримуємо ітератор і обходимо колекцію
+        Iterator iterator = repository.getIterator();
+        while (iterator.hasNext()) {
+            System.out.println("Ім'я: " + iterator.next());
+        }
+    }
+}
 
