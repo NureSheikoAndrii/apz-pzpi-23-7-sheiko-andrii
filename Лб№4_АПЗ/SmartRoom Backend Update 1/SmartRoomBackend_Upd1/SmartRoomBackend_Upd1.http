@@ -1,0 +1,6 @@
+@SmartRoomBackend_Upd1_HostAddress = http://localhost:5034
+
+GET {{SmartRoomBackend_Upd1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|c:\\users\\admin\\desktop\\\u043B\u0431\u21164_\u0430\u043F\u0437\\smartroom backend update 1\\smartroombackend_upd1\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|solutionrelative:smartroombackend_upd1\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|c:\\users\\admin\\desktop\\\u043B\u0431\u21164_\u0430\u043F\u0437\\smartroom backend update 1\\smartroombackend_upd1\\controllers\\sensorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|solutionrelative:smartroombackend_upd1\\controllers\\sensorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|c:\\users\\admin\\desktop\\\u043B\u0431\u21164_\u0430\u043F\u0437\\smartroom backend update 1\\smartroombackend_upd1\\controllers\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|solutionrelative:smartroombackend_upd1\\controllers\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|c:\\users\\admin\\desktop\\\u043B\u0431\u21164_\u0430\u043F\u0437\\smartroom backend update 1\\smartroombackend_upd1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0561D6-D7FF-4E5E-9E87-589ACF040B78}|SmartRoomBackend_Upd1\\SmartRoomBackend_Upd1.csproj|solutionrelative:smartroombackend_upd1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Controllers\\SensorsController.cs",
+              "RelativeDocumentMoniker": "SmartRoomBackend_Upd1\\Controllers\\SensorsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Controllers\\SensorsController.cs",
+              "RelativeToolTip": "SmartRoomBackend_Upd1\\Controllers\\SensorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T15:56:51.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Controllers\\LightController.cs",
+              "RelativeDocumentMoniker": "SmartRoomBackend_Upd1\\Controllers\\LightController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Controllers\\LightController.cs",
+              "RelativeToolTip": "SmartRoomBackend_Upd1\\Controllers\\LightController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T15:50:52.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "SmartRoomBackend_Upd1\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Controllers\\TestController.cs",
+              "RelativeToolTip": "SmartRoomBackend_Upd1\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T14:00:02.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Program.cs",
+              "RelativeDocumentMoniker": "SmartRoomBackend_Upd1\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u041B\u0431\u21164_\u0410\u041F\u0417\\SmartRoom Backend Update 1\\SmartRoomBackend_Upd1\\Program.cs",
+              "RelativeToolTip": "SmartRoomBackend_Upd1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:04:33.836Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

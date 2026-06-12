@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.AdminController",
+    "Method": "GetLogs",
+    "RelativePath": "api/admin/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.AdminController",
+    "Method": "GetSettings",
+    "RelativePath": "api/admin/settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.AdminController",
+    "Method": "UpdateSettings",
+    "RelativePath": "api/admin/settings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settings",
+        "Type": "SmartRoomBackend_Upd1.AutomationSettings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.LightController",
+    "Method": "SetLight",
+    "RelativePath": "api/light",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.LightController",
+    "Method": "GetStatus",
+    "RelativePath": "api/light/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.SensorsController",
+    "Method": "Create",
+    "RelativePath": "api/sensors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "SmartRoomBackend_Upd1.Models.SensorData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.SensorsController",
+    "Method": "Update",
+    "RelativePath": "api/sensors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedData",
+        "Type": "SmartRoomBackend_Upd1.Models.SensorData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.SensorsController",
+    "Method": "Delete",
+    "RelativePath": "api/sensors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.SensorsController",
+    "Method": "GetHistory",
+    "RelativePath": "api/sensors/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartRoomBackend_Upd1.Controllers.SensorsController",
+    "Method": "GetLatest",
+    "RelativePath": "api/sensors/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
